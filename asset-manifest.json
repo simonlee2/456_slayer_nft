@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.203555e7.chunk.css",
-    "main.js": "/static/js/main.15441acd.chunk.js",
-    "main.js.map": "/static/js/main.15441acd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.65a3bc19.js",
-    "runtime-main.js.map": "/static/js/runtime-main.65a3bc19.js.map",
-    "static/js/2.b9fc26c8.chunk.js": "/static/js/2.b9fc26c8.chunk.js",
-    "static/js/2.b9fc26c8.chunk.js.map": "/static/js/2.b9fc26c8.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.203555e7.chunk.css.map": "/static/css/main.203555e7.chunk.css.map",
-    "static/js/2.b9fc26c8.chunk.js.LICENSE.txt": "/static/js/2.b9fc26c8.chunk.js.LICENSE.txt",
-    "static/media/twitter-logo.a8a75254.svg": "/static/media/twitter-logo.a8a75254.svg"
+    "main.css": "/456_slayer_nft/static/css/main.203555e7.chunk.css",
+    "main.js": "/456_slayer_nft/static/js/main.15441acd.chunk.js",
+    "main.js.map": "/456_slayer_nft/static/js/main.15441acd.chunk.js.map",
+    "runtime-main.js": "/456_slayer_nft/static/js/runtime-main.09e803f6.js",
+    "runtime-main.js.map": "/456_slayer_nft/static/js/runtime-main.09e803f6.js.map",
+    "static/js/2.b9fc26c8.chunk.js": "/456_slayer_nft/static/js/2.b9fc26c8.chunk.js",
+    "static/js/2.b9fc26c8.chunk.js.map": "/456_slayer_nft/static/js/2.b9fc26c8.chunk.js.map",
+    "index.html": "/456_slayer_nft/index.html",
+    "static/css/main.203555e7.chunk.css.map": "/456_slayer_nft/static/css/main.203555e7.chunk.css.map",
+    "static/js/2.b9fc26c8.chunk.js.LICENSE.txt": "/456_slayer_nft/static/js/2.b9fc26c8.chunk.js.LICENSE.txt",
+    "static/media/twitter-logo.a8a75254.svg": "/456_slayer_nft/static/media/twitter-logo.a8a75254.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.65a3bc19.js",
+    "static/js/runtime-main.09e803f6.js",
     "static/js/2.b9fc26c8.chunk.js",
     "static/css/main.203555e7.chunk.css",
     "static/js/main.15441acd.chunk.js"
