@@ -12,10 +12,13 @@ import { ethers } from 'ethers';
 // Constants
 const TWITTER_HANDLE = 'simonlee_dev';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
+const CONTRACT_CHAIN_ID = '0x3';
+const CONTRACT_CHAIN_NAME = "Ropsten Test Network";
 
 const App = () => {
   // State
   const [currentAccount, setCurrentAccount] = useState(null);
+  const [isCorrectNetwork, setIsCorrectNetwork] = useState(null);
   const [characterNFT, setCharacterNFT] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -31,20 +34,38 @@ const App = () => {
         console.log('We have the ethereum object', ethereum);
       }
 
-      const accounts = await ethereum.request({ method: 'eth_accounts' });
+      await checkNetwork(ethereum)
 
-      if (accounts.length !== 0) {
-        const account = accounts[0];
-        console.log('Found an authorized account:', account);
-        setCurrentAccount(account);
+      if (isCorrectNetwork) {
+        const accounts = await ethereum.request({ method: 'eth_accounts' });
+
+        if (accounts.length !== 0) {
+          const account = accounts[0];
+          console.log('Found an authorized account:', account);
+          setCurrentAccount(account);
+        } else {
+          console.log('No authorized account found');
+          setIsLoading(false);
+        }
       } else {
-        console.log('No authorized account found');
-        setIsLoading(false);
+        setIsLoading(false)
       }
     } catch (error) {
       console.log(error);
     }
   };
+
+  const checkNetwork = async (ethereum) => {
+    let chainId = await ethereum.request({ method: 'eth_chainId' });
+    console.log("Connected to chain " + chainId);
+ 
+    if (chainId !== CONTRACT_CHAIN_ID) {
+      alert(`You are not connected to the ${CONTRACT_CHAIN_NAME}!`);
+      setIsCorrectNetwork(false);
+    } else {
+      setIsCorrectNetwork(true);
+    }
+  }
 
   /*
   * Implement your connectWallet method here
