@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/456_slayer_nft/static/css/main.203555e7.chunk.css",
-    "main.js": "/456_slayer_nft/static/js/main.15441acd.chunk.js",
-    "main.js.map": "/456_slayer_nft/static/js/main.15441acd.chunk.js.map",
+    "main.js": "/456_slayer_nft/static/js/main.28a74b77.chunk.js",
+    "main.js.map": "/456_slayer_nft/static/js/main.28a74b77.chunk.js.map",
     "runtime-main.js": "/456_slayer_nft/static/js/runtime-main.09e803f6.js",
     "runtime-main.js.map": "/456_slayer_nft/static/js/runtime-main.09e803f6.js.map",
     "static/js/2.b9fc26c8.chunk.js": "/456_slayer_nft/static/js/2.b9fc26c8.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.09e803f6.js",
     "static/js/2.b9fc26c8.chunk.js",
     "static/css/main.203555e7.chunk.css",
-    "static/js/main.15441acd.chunk.js"
+    "static/js/main.28a74b77.chunk.js"
   ]
 }
