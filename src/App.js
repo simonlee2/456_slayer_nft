@@ -39,6 +39,7 @@ const App = () => {
         setCurrentAccount(account);
       } else {
         console.log('No authorized account found');
+        setIsLoading(false);
       }
     } catch (error) {
       console.log(error);
@@ -75,14 +76,6 @@ const App = () => {
   };
 
   useEffect(() => {
-    checkIfWalletIsConnected();
-  }, []);
-
-  // loading state
-  useEffect(() => {
-    /*
-     * Anytime our component mounts, make sure to immiediately set our loading state
-     */
     setIsLoading(true);
     checkIfWalletIsConnected();
   }, []);
