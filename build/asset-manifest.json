@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/456_slayer_nft/static/css/main.203555e7.chunk.css",
+    "main.js": "/456_slayer_nft/static/js/main.bef6005d.chunk.js",
+    "main.js.map": "/456_slayer_nft/static/js/main.bef6005d.chunk.js.map",
+    "runtime-main.js": "/456_slayer_nft/static/js/runtime-main.09e803f6.js",
+    "runtime-main.js.map": "/456_slayer_nft/static/js/runtime-main.09e803f6.js.map",
+    "static/js/2.e57e5332.chunk.js": "/456_slayer_nft/static/js/2.e57e5332.chunk.js",
+    "static/js/2.e57e5332.chunk.js.map": "/456_slayer_nft/static/js/2.e57e5332.chunk.js.map",
+    "index.html": "/456_slayer_nft/index.html",
+    "static/css/main.203555e7.chunk.css.map": "/456_slayer_nft/static/css/main.203555e7.chunk.css.map",
+    "static/js/2.e57e5332.chunk.js.LICENSE.txt": "/456_slayer_nft/static/js/2.e57e5332.chunk.js.LICENSE.txt",
+    "static/media/twitter-logo.a8a75254.svg": "/456_slayer_nft/static/media/twitter-logo.a8a75254.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09e803f6.js",
+    "static/js/2.e57e5332.chunk.js",
+    "static/css/main.203555e7.chunk.css",
+    "static/js/main.bef6005d.chunk.js"
+  ]
+}
